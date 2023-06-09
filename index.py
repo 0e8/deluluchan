@@ -14,7 +14,7 @@ PRESENCE = os.getenv('PRESENCE')
 ACTIVITY = discord.Activity(type=discord.ActivityType.listening, name = PRESENCE)
 
 # Initialize bot
-bot = discord.AutoShardedBot(activity = ACTIVITY, debug_guilds=[1089717217618296905])
+bot = discord.AutoShardedBot(activity = ACTIVITY, debug_guilds=[1089717217618296905]) # Delulu Land
 
 @bot.event
 async def on_ready():
